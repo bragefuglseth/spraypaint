@@ -20,6 +20,7 @@ modules:
       - firefox-langpacks
       - desktop-backgrounds-gnome
       - f42-backgrounds-gnome
+      - ptyxis
 
   - type: default-flatpaks
     system:
