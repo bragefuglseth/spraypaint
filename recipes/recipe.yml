@@ -18,7 +18,8 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
-      - desktop-backgrounds-gnome
+      - f42-backgrounds-gnome
+      - f42-backgrounds-base
 
   - type: default-flatpaks
     system:
