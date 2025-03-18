@@ -9,3 +9,11 @@ A Fedora Silverblue variant with some light modifications, namely:
   - Papers replacing Evince
 - Enabling the full GNOME wallpaper set
 - Removing the Firefox system package
+
+## Usage
+
+From an existing immutable system:
+
+```
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/bragefuglseth/spraypaint:latest
+```
