@@ -30,6 +30,7 @@ modules:
         - org.gnome.Characters
         - org.gnome.Decibels # incubator app
         - org.gnome.Epiphany
+        - org.gnome.Extensions
         - org.gnome.Showtime # incubator app
         - org.gnome.Snapshot
         - org.gnome.clocks
