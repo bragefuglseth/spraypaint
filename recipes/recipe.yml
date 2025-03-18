@@ -2,7 +2,7 @@ name: spraypaint
 description: Fedora with a coat of spray paint
 
 base-image: quay.io/fedora/fedora-silverblue
-image-version: latest
+image-version: 42
 
 modules:
   - type: files
