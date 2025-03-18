@@ -10,6 +10,8 @@ A Fedora Silverblue variant with some light modifications, namely:
 - Enabling the full GNOME wallpaper set
 - Removing the Firefox system package
 
+Use at your own discretion; I'm no expert at this.
+
 ## Usage
 
 From an existing immutable system:
