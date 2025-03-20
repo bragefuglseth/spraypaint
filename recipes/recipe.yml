@@ -13,7 +13,7 @@ modules:
   - type: rpm-ostree
     install:
       - gnome-console
-      - gnome-backgrounds-extras
+      - gnome-backgrounds-extras-47.0-2.fc42
       - sushi
     remove:
       - firefox
