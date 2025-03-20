@@ -13,7 +13,7 @@ modules:
   - type: rpm-ostree
     install:
       - gnome-console
-      - https://kojipkgs.fedoraproject.org//packages/gnome-backgrounds/47.0/2.fc42/noarch/gnome-backgrounds-extras-47.0-2.fc42.noarch.rpm
+      - gnome-backgrounds-extras
       - sushi
     remove:
       - firefox
