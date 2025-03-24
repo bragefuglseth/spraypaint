@@ -6,17 +6,15 @@
 
 # Spraypaint
 
-A Fedora Silverblue variant with some light modifications, namely:
+A general-purpose operating system, the way I think it should be.
 
-- Replacing Fedora Flatpaks with Flathub ones
-- Installing the GNOME Core app set, with:
-  - Decibels by default
-  - Showtime replacing Totem
-  - Papers replacing Evince
-- Enabling the full GNOME wallpaper set
-- Removing the Firefox system package
+Key characteristics:
 
-Use at your own discretion; I'm no expert at this.
+- Powered by [Fedora Silverblue][silverblue]
+- Unmodified [GNOME][gnome] environment with all core apps included by default
+- [Flathub][flathub] as the one and only source of apps
+
+Spraypaint has no versioning or release scheme, you simply start using it and receive automated updates on a daily basis or whenever I feel like making a change.
 
 ## Usage
 
@@ -25,3 +23,13 @@ From an existing immutable system:
 ```
 rpm-ostree rebase ostree-unverified-registry:ghcr.io/bragefuglseth/spraypaint:latest
 ```
+
+## Credits
+
+Spraypaint is made possible by [Fedora][fedora] and [BlueBuild][bluebuild].
+
+[silverblue]: https://fedoraproject.org/atomic-desktops/silverblue/
+[gnome]: https://www.gnome.org/
+[flathub]: https://flathub.org/
+[fedora]: https://fedoraproject.org/
+[bluebuild]: https://blue-build.org/
