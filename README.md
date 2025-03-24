@@ -1,6 +1,6 @@
 <picture>
-  <source srcset="./files/usr/share/pixmaps/fedora-logo-sprite.png" media="(prefers-color-scheme: light)"/>
-  <source srcset="./files/usr/share/pixmaps/fedora_whitelogo_med.png"  media="(prefers-color-scheme: dark)"/>
+  <source srcset="./files/usr/share/pixmaps/fedora-logo-sprite.png" width="auto" height="128" media="(prefers-color-scheme: light)"/>
+  <source srcset="./files/usr/share/pixmaps/system-logo-white.png" width="auto" height="128" media="(prefers-color-scheme: dark)"/>
   <img src="./files/usr/share/pixmaps/fedora-logo-sprite.png"/>
 </picture>
 
