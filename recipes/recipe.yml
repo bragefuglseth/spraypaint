@@ -7,7 +7,7 @@ image-version: 42
 modules:
   - type: files
     files:
-      - source: system
+      - source: /
         destination: /
 
   - type: rpm-ostree
