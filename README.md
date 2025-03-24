@@ -1,3 +1,9 @@
+<picture>
+  <source srcset="./files/usr/share/pixmaps/fedora-logo-sprite.png" media="(prefers-color-scheme: light)"/>
+  <source srcset="./files/usr/share/pixmaps/fedora_whitelogo_med.png"  media="(prefers-color-scheme: dark)"/>
+  <img src="./files/usr/share/pixmaps/fedora-logo-sprite.png"/>
+</picture>
+
 # Spraypaint
 
 A Fedora Silverblue variant with some light modifications, namely:
