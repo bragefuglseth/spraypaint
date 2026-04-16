@@ -12,14 +12,16 @@ modules:
 
   - type: dnf
     install:
-      - gnome-console
-      - sushi
+      packages:
+        - gnome-console
+        - sushi
     remove:
-      - firefox
-      - firefox-langpacks
-      - desktop-backgrounds-gnome
-      - f42-backgrounds-gnome
-      - ptyxis
+      packages:
+        - firefox
+        - firefox-langpacks
+        - desktop-backgrounds-gnome
+        - f42-backgrounds-gnome
+        - ptyxis
 
   - type: default-flatpaks
     configurations:
