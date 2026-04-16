@@ -10,7 +10,7 @@ modules:
       - source: .
         destination: /
 
-  - type: rpm-ostree
+  - type: dnf
     install:
       - gnome-console
       - sushi
