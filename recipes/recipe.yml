@@ -22,31 +22,30 @@ modules:
       - ptyxis
 
   - type: default-flatpaks
-    system:
-      # If no repo information is specified, Flathub will be used by default
-      install:
-        - org.gnome.baobab
-        - org.gnome.Calculator
-        - org.gnome.Calendar
-        - org.gnome.Characters
-        - org.gnome.Decibels # incubator app
-        - org.gnome.Epiphany
-        - org.gnome.Extensions
-        - org.gnome.Showtime # incubator app
-        - org.gnome.Snapshot
-        - org.gnome.clocks
-        - org.gnome.Connections
-        - org.gnome.Contacts
-        - org.gnome.Extensions
-        - org.gnome.font-viewer
-        - org.gnome.TextEditor
-        - org.gnome.Loupe
-        - org.gnome.Logs
-        - org.gnome.Maps
-        - org.gnome.Music
-        - org.gnome.Papers # incubator app
-        - org.gnome.Weather
-
+    configurations:
+      - notify: false
+        scope: system
+        install:
+          - org.gnome.baobab
+          - org.gnome.Calculator
+          - org.gnome.Calendar
+          - org.gnome.Characters
+          - org.gnome.Decibels
+          - org.gnome.Epiphany
+          - org.gnome.Extensions
+          - org.gnome.Showtime
+          - org.gnome.Snapshot
+          - org.gnome.clocks
+          - org.gnome.Connections
+          - org.gnome.Contacts
+          - org.gnome.Extensions
+          - org.gnome.font-viewer
+          - org.gnome.TextEditor
+          - org.gnome.Loupe
+          - org.gnome.Logs
+          - org.gnome.Maps
+          - org.gnome.Music
+          - org.gnome.Papers
+          - org.gnome.Weather
   - type: initramfs
-  - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
+  - type: signing
